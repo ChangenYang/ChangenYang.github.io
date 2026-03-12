@@ -4,9 +4,9 @@
     <img src="ECCV.png" alt="ECCV paper preview">
   </div>
   <div class="publication-card-body">
-    <div class="publication-title">Coral Texture Dataset: A Fine-Grained Benchmark for Species-Level Recognition</div>
+    <div class="publication-title">Coral Texture Dataset: A Fine-Grained Benchmark for Species-Level Recognition</div> [under review]
     <div class="publication-authors"><span class="author-highlight">Changen, Yang.</span>, Chenchen Ge, Lu Zhaoxuan, Liang Xi, Shijin Wang, Hua Li, Zhuhua Hu & Zhi Zhou.</div>
-    <div class="publication-venue"><em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>, under review.</div>
+    <div class="publication-venue"><em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>.</div>
   </div>
 </div>
 
@@ -15,9 +15,9 @@
     <img src="EAAI.png" alt="EAAI paper preview">
   </div>
   <div class="publication-card-body">
-    <div class="publication-title">Diffusion Model-Enhanced Coral Identification: A Lightweight Multi-Scale Network for Benthic Imagery Analysis</div>
+    <div class="publication-title">Diffusion Model-Enhanced Coral Identification: A Lightweight Multi-Scale Network for Benthic Imagery Analysis</div>[under Minor-revision review]
     <div class="publication-authors"><span class="author-highlight">Changen, Yang.</span>, Zhi Zhou & Zhuhua Hu., Zhaoxuan Lu., Yijun Shen., Wei Zhang., Xi Liang.</div>
-    <div class="publication-venue"><em>Engineering Applications of Artificial Intelligence (<strong>EAAI</strong>)</em>, under minor revision.</div>
+    <div class="publication-venue"><em>Engineering Applications of Artificial Intelligence (<strong>EAAI</strong>)</em></div>
     <div class="publication-links"><a href="https://github.com/ChangenYang/CoralGrad-LiteNet">[Code]</a></div>
   </div>
 </div>
