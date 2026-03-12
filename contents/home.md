@@ -3,7 +3,9 @@
 [![Changen Yang](https://img.shields.io/badge/Changen%20Yang-github-blue?logo=github)](https://github.com/ChangenYang)
 #### Self-introduction
 
-Hello! I am currently a second-year Master's student in Robotics Engineering at Hainan University. I am a postgraduate in Professor Zhou Zhi's research group, and am also jointly supervised by Professor Hu Zhuhua from the School of Information and Communication Engineering.
+<div class="intro-text">
+Hello! I am currently a second-year Master's student in Robotics Engineering at Hainan University. I am a postgraduate in [Prof. Zhou Zhi's ](https://smbf.hainanu.edu.cn/info/1109/7934.htm)research group, and am also jointly supervised by [Prof. Hu Zhuhua](https://huzhuhua.github.io/) from the School of Information and Communication Engineering. I am honoured to be under the joint supervision of two professors.
+</div>
 
 #### Research Interests
 - Underwater Computer Vision and Marine Ecology Monitoring.
@@ -12,5 +14,5 @@ Hello! I am currently a second-year Master's student in Robotics Engineering at 
 
 #### Contact
 
-Email: 24220855100020[at]hainanu.edu.cn
+Email: 24220855100020@hainanu.edu.cn<br>
 WeChat: YCE7713520

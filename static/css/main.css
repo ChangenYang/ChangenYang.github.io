@@ -50,17 +50,19 @@ section header h2{
 }
 
 section .main-body{
-    font-size: 1.3rem;
-    font-weight: 200;
-    line-height: 2.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.55rem;
+    color: #141414;
 }
 
 .award-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 1.75rem;
-    margin-right: 0.2rem;
+    flex: 0 0 2rem;
+    width: 2rem;
+    margin-right: 0.35rem;
 }
 
 .award-icon-gold {
@@ -71,9 +73,94 @@ section .main-body{
     color: #b87333;
 }
 
+.award-icon-placeholder {
+    color: transparent;
+}
+
+#awards-md ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#awards-md li {
+    display: flex;
+    align-items: flex-start;
+}
+
+#awards-md .award-text {
+    flex: 1 1 auto;
+}
+
 #publications .author-highlight {
     font-weight: 700;
     color: var(--h-title-color);
+}
+
+#publications-md .publication-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.8rem;
+    margin: 1.2rem 0 2.4rem;
+}
+
+#publications-md .publication-card-image {
+    flex: 0 0 13rem;
+    max-width: 13rem;
+}
+
+#publications-md .publication-card-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.45rem;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#publications-md .publication-card-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#publications-md .publication-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #111111;
+    margin-bottom: 0.35rem;
+}
+
+#publications-md .publication-authors,
+#publications-md .publication-venue,
+#publications-md .publication-links {
+    font-size: 1.2rem;
+    line-height: 1.9;
+}
+
+#publications-md .publication-venue em,
+#publications-md .publication-venue strong {
+    font-style: italic;
+}
+
+#publications-md .publication-venue strong {
+    font-weight: 700;
+}
+
+#publications-md .publication-links a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#publications-md .publication-links a:hover {
+    text-decoration: underline;
+}
+
+#project-md {
+    margin-top: 2.4rem;
+}
+
+#home-md .intro-text {
+    max-width: 66.666%;
 }
 
 
@@ -128,5 +215,17 @@ section .main-body{
 @media screen and (max-width: 991px) {
     #avatar {
         margin: 0;
+    }
+
+    #home-md .intro-text {
+        max-width: 100%;
+    }
+
+    #publications-md .publication-card {
+        flex-direction: column;
+    }
+
+    #publications-md .publication-card-image {
+        max-width: 100%;
     }
 }
