@@ -1,1 +1,1 @@
-- **Principal Investigator**, Hainan Provincial Research Project, *Machine Vision-Enabled Digital Twin of Coral Reefs*, 2024.
+- **Principal Investigator**, Hainan Province Postgraduate Innovative Research Projects, *Machine Vision-Enabled Digital Twin of Coral Reefs*, 2024.

@@ -16,20 +16,41 @@
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    padding: 7rem 0 5.5rem;
     background-position: center;
     background-size: cover;
-    height: 25rem;
+    height: 19rem;
 }
 
 .top-section h2 {
     font-weight: 400;
     line-height: 1.25;
+    margin-bottom: 1.1rem;
 }
 
 .top-section .top-section-content {
     position: relative;
     z-index: 1;
+}
+
+.hero-jump-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 999px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(4px);
+}
+
+.hero-jump-link:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.32);
 }
 
 .top-section:before {
@@ -219,7 +240,7 @@ section .main-body{
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: min(-48px, max(-78px, calc(-1*100vw/14)));
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -227,8 +248,12 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
+    height: max(118px, min(178px, calc(100vw/6.8)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#home {
+    padding-top: 0.75rem;
 }
 
 @media screen and (max-width: 991px) {
