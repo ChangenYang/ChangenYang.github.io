@@ -73,8 +73,8 @@ section .main-body{
     color: #b87333;
 }
 
-.award-icon-placeholder {
-    color: transparent;
+.award-icon-note {
+    color: #c74646;
 }
 
 #awards-md ul {
@@ -89,6 +89,10 @@ section .main-body{
 
 #awards-md .award-text {
     flex: 1 1 auto;
+}
+
+#awards-md .award-text-nowrap {
+    white-space: nowrap;
 }
 
 #publications .author-highlight {
@@ -159,8 +163,23 @@ section .main-body{
     margin-top: 2.4rem;
 }
 
+#project-md li {
+    white-space: normal;
+    text-wrap: pretty;
+}
+
 #home-md .intro-text {
-    max-width: 66.666%;
+    max-width: 100%;
+}
+
+#home-md h4 {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+#home-md h4:not(:first-of-type) {
+    margin-top: 2.55rem;
 }
 
 
@@ -219,6 +238,10 @@ section .main-body{
 
     #home-md .intro-text {
         max-width: 100%;
+    }
+
+    #awards-md .award-text-nowrap {
+        white-space: normal;
     }
 
     #publications-md .publication-card {

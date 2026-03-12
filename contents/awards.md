@@ -1,6 +1,6 @@
-- <span class="award-icon award-icon-gold"><i class="bi bi-trophy-fill"></i></span><span class="award-text">First Prize, Academic Presentation Conference, Chinese Society of Oceanography and Limnology, Individual Presentation, 2025</span>
+- <span class="award-icon award-icon-gold"><i class="bi bi-trophy-fill"></i></span><span class="award-text award-text-nowrap">First Prize, Academic Presentation Conference, Chinese Society of Oceanography and Limnology, Individual Presentation, 2025</span>
 - <span class="award-icon award-icon-gold"><i class="bi bi-trophy-fill"></i></span><span class="award-text">First-Prize, Postgraduate Academic Scholarship, 2024 & 2025</span>
-- <span class="award-icon award-icon-placeholder"><i class="bi bi-trophy-fill"></i></span><span class="award-text">Outstanding, Postgraduate Student of the Year, Hainan University, 2025.</span>
+- <span class="award-icon award-icon-note"><i class="bi bi-file-earmark-text-fill"></i></span><span class="award-text">Outstanding Postgraduate Student of the Year, Hainan University, 2025.</span>
 - <span class="award-icon award-icon-bronze"><i class="bi bi-award-fill"></i></span><span class="award-text">Third Prize, Hainan Provincial Science and Technology Innovation Competition, First Project Leader, 2025.</span>
-- <span class="award-icon award-icon-placeholder"><i class="bi bi-trophy-fill"></i></span><span class="award-text">Two Authorized Utility Model Patents, China National Intellectual Property Administration (CNIPA), 2024.</span>
+- <span class="award-icon award-icon-note"><i class="bi bi-file-earmark-text-fill"></i></span><span class="award-text">Authorized Utility Model Patents(×2), China National Intellectual Property Administration (CNIPA), 2024.</span>
 - <span class="award-icon award-icon-bronze"><i class="bi bi-award-fill"></i></span><span class="award-text">Third Prize (×2), “Challenge Cup” Provincial Competition, First Project Leader, 2022.</span>

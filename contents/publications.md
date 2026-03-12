@@ -5,7 +5,7 @@
   </div>
   <div class="publication-card-body">
     <div class="publication-title">Coral Texture Dataset: A Fine-Grained Benchmark for Species-Level Recognition</div>
-    <div class="publication-authors"><span class="author-highlight">Changen, Yang.</span>, Chenchen Ge, Lu Zhaoxuan, Liang Xi, Shijin Wang, Hua Li, Zhuhua Hu& Zhi Zhou.</div>
+    <div class="publication-authors"><span class="author-highlight">Changen, Yang.</span>, Chenchen Ge, Lu Zhaoxuan, Liang Xi, Shijin Wang, Hua Li, Zhuhua Hu & Zhi Zhou.</div>
     <div class="publication-venue"><em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>, under review.</div>
   </div>
 </div>

@@ -4,7 +4,7 @@
 #### Self-introduction
 
 <div class="intro-text">
-Hello! I am currently a second-year Master's student in Robotics Engineering at Hainan University. I am a postgraduate in [Prof. Zhou Zhi's ](https://smbf.hainanu.edu.cn/info/1109/7934.htm)research group, and am also jointly supervised by [Prof. Hu Zhuhua](https://huzhuhua.github.io/) from the School of Information and Communication Engineering. I am honoured to be under the joint supervision of two professors.
+Hello! 😊 I am currently a second-year Master's student in Robotics Engineering at Hainan University. I am a postgraduate in Prof. <a href="https://smbf.hainanu.edu.cn/info/1109/7934.htm">Zhi Zhou</a>'s research group, and am also jointly supervised by Prof. <a href="https://huzhuhua.github.io/">Zhuhua Hu</a> from the School of Information and Communication Engineering. I am honoured to be under the joint supervision of two professors.
 </div>
 
 #### Research Interests
