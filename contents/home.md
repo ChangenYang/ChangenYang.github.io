@@ -1,17 +1,16 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![Changen Yang](https://img.shields.io/badge/Changen%20Yang-github-blue?logo=github)](https://github.com/ChangenYang)
+#### Self-introduction
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+Hello! I am currently a second-year Master's student in Robotics Engineering at Hainan University. I am a postgraduate in Professor Zhou Zhi's research group, and am also jointly supervised by Professor Hu Zhuhua from the School of Information and Communication Engineering.
+
+#### Research Interests
+- Underwater Computer Vision and Marine Ecology Monitoring.
+- Diffusion Models for Image Synthesis and Data Augmentation.
+- Benchmark Dataset Construction and Engineering Applications.
 
 #### Contact
 
-Email: user[at]fas.harvard.edu
-
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
-
-#### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
-
+Email: 24220855100020[at]hainanu.edu.cn
+WeChat: YCE7713520

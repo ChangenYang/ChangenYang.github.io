@@ -24,6 +24,7 @@
 
 .top-section h2 {
     font-weight: 400;
+    line-height: 1.25;
 }
 
 .top-section .top-section-content {
@@ -52,6 +53,27 @@ section .main-body{
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
+}
+
+.award-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    margin-right: 0.2rem;
+}
+
+.award-icon-gold {
+    color: #d4a017;
+}
+
+.award-icon-bronze {
+    color: #b87333;
+}
+
+#publications .author-highlight {
+    font-weight: 700;
+    color: var(--h-title-color);
 }
 
 
@@ -108,5 +130,3 @@ section .main-body{
         margin: 0;
     }
 }
-
-

@@ -1,8 +1,6 @@
-
-- 中国海洋湖沼学会第四届学术汇报一等奖, 个人汇报,2025.
-- First-Prize Graduate Academic Scholarship,2024 & 2025
-- 海南大学年度优秀研究生，2025.
-- 海南省省级课题,“机器视觉赋能珊瑚礁数字孪生”,课题负责人,2024.
-- 海南省第四届海洋文化科技创新创意大赛三等奖,第一负责任,2025.
-- 实用新型专利*2，已授权，2024.
-- “挑战杯”省赛三等奖*2，第一负责人,2022.
+- <span class="award-icon award-icon-gold"><i class="bi bi-trophy-fill"></i></span> First Prize, Academic Presentation Conference, Chinese Society of Oceanography and Limnology, Individual Presentation, 2025
+- <span class="award-icon award-icon-gold"><i class="bi bi-trophy-fill"></i></span> First-Prize, Postgraduate Academic Scholarship, 2024 & 2025
+- Outstanding, Postgraduate Student of the Year, Hainan University, 2025.
+- <span class="award-icon award-icon-bronze"><i class="bi bi-award-fill"></i></span> Third Prize, Hainan Provincial Science and Technology Innovation Competition, First Project Leader, 2025.
+- Two Authorized Utility Model Patents, China National Intellectual Property Administration (CNIPA), 2024..
+- <span class="award-icon award-icon-bronze"><i class="bi bi-award-fill"></i></span> Third Prize (×2), “Challenge Cup” Provincial Competition, First Project Leader, 2022.
