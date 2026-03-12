@@ -1,0 +1,4 @@
+*.DS_Store
+.idea/
+academic-homepage-template-main/
+template.gitignore
