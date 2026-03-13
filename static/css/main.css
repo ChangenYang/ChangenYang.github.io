@@ -53,6 +53,49 @@
     background: rgba(0, 0, 0, 0.32);
 }
 
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    align-items: center;
+}
+
+.print-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 0.7rem 1.1rem;
+    border: 1px solid var(--h-title-color);
+    border-radius: 999px;
+    background: #ffffff;
+    color: var(--h-title-color);
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.print-action:hover {
+    color: #ffffff;
+    background: var(--h-title-color);
+    border-color: var(--h-title-color);
+}
+
+.print-action-hero {
+    border-color: rgba(255, 255, 255, 0.78);
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    backdrop-filter: blur(4px);
+}
+
+.print-action-hero:hover {
+    color: #111111;
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
 .top-section:before {
     content: "";
     position: absolute;
@@ -281,5 +324,177 @@ section .main-body{
 
     #publications-md .publication-card-image {
         max-width: 100%;
+    }
+
+    .hero-actions {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 14mm 12mm;
+}
+
+@media print {
+    html {
+        scroll-padding-top: 0;
+    }
+
+    body {
+        font-size: 11pt;
+        line-height: 1.45;
+        color: #000000;
+        background: #ffffff;
+    }
+
+    .header,
+    .hero-jump-link,
+    .print-action,
+    .navbar-toggler,
+    footer {
+        display: none !important;
+    }
+
+    .top-section {
+        height: auto;
+        min-height: 0;
+        padding: 0 0 0.8rem;
+        background: none !important;
+        page-break-after: avoid;
+    }
+
+    .top-section:before {
+        display: none;
+    }
+
+    .top-section h2 {
+        color: #000000 !important;
+        font-size: 24pt;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+        max-width: none !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #avatar {
+        float: none;
+        top: 0;
+        height: auto;
+        margin: 0 0 1rem;
+        max-width: none;
+        page-break-after: avoid;
+    }
+
+    #avatar img {
+        height: 112px;
+        box-shadow: none;
+        border: 1px solid #cccccc;
+    }
+
+    section,
+    aside {
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.8rem !important;
+        background: #ffffff !important;
+        break-inside: auto;
+    }
+
+    section header,
+    section header h2,
+    h1,
+    h2,
+    h3,
+    h4 {
+        page-break-after: avoid;
+        break-after: avoid-page;
+    }
+
+    section header h2 {
+        color: #000000;
+        font-size: 16pt;
+        line-height: 1.25;
+        margin-bottom: 0.45rem;
+    }
+
+    section .main-body,
+    #publications-md .publication-authors,
+    #publications-md .publication-venue,
+    #publications-md .publication-links,
+    #publications-md > ul li {
+        font-size: 11pt;
+        line-height: 1.55;
+    }
+
+    #home {
+        padding-top: 0 !important;
+    }
+
+    #home-md h4 {
+        font-size: 13pt;
+        line-height: 1.35;
+        margin-bottom: 0.45rem;
+    }
+
+    #home-md h4:not(:first-of-type) {
+        margin-top: 1rem;
+    }
+
+    #publications-md .publication-card {
+        gap: 0.9rem;
+        margin: 0.75rem 0 1.1rem;
+        align-items: flex-start;
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+    }
+
+    #publications-md .publication-card-image {
+        flex: 0 0 8.5rem;
+        max-width: 8.5rem;
+    }
+
+    #publications-md .publication-card-image img {
+        box-shadow: none;
+        border: 1px solid #d6d6d6;
+    }
+
+    #publications-md .publication-title {
+        font-size: 12pt;
+        line-height: 1.4;
+        margin-bottom: 0.2rem;
+    }
+
+    ul,
+    ol {
+        padding-left: 1.2rem;
+    }
+
+    li,
+    p {
+        break-inside: avoid-page;
+    }
+
+    a,
+    a:visited {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    #publications-md .publication-links a[href^="http"]::after,
+    .main-body a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 9pt;
+        word-break: break-all;
     }
 }

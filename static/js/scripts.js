@@ -6,6 +6,7 @@ const section_names = ['home', 'publications', 'project', 'awards']
 
 
 window.addEventListener('DOMContentLoaded', event => {
+    const printButtons = document.querySelectorAll('#print-page-button, #print-page-button-mobile');
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -31,7 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
     // Yaml
-    fetch(content_dir + config_file)
+    const configReady = fetch(content_dir + config_file)
         .then(response => response.text())
         .then(text => {
             const yml = jsyaml.load(text);
@@ -49,17 +50,39 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Marked
     marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
-        fetch(content_dir + name + '.md')
+    const sectionsReady = Promise.all(section_names.map(name => {
+        return fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
-                // MathJax
-                MathJax.typeset();
             })
             .catch(error => console.log(error));
-    })
+    }));
+
+    const mathReady = sectionsReady.then(() => {
+        if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+            return MathJax.typesetPromise();
+        }
+    }).catch(error => console.log(error));
+
+    const renderReady = Promise.all([configReady, sectionsReady, mathReady]);
+
+    const printPage = async () => {
+        try {
+            await renderReady;
+            if (document.fonts && typeof document.fonts.ready?.then === 'function') {
+                await document.fonts.ready;
+            }
+        } catch (error) {
+            console.log(error);
+        }
+
+        window.print();
+    };
+
+    printButtons.forEach(button => {
+        button.addEventListener('click', printPage);
+    });
 
 }); 
