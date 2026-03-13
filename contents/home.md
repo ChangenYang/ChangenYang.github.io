@@ -8,8 +8,8 @@ Hello! 😊 I am currently a second-year Master's student in Robotics Engineerin
 </div>
 
 #### Research Interests
-- Underwater Computer Vision and Marine Ecology Monitoring.
-- Diffusion Models for Image Synthesis and Data Augmentation.
+- Underwater Computer Vision and Pattern Recognition.
+- Diffusion-Based Image Synthesis and Data Augmentation.
 - Benchmark Dataset Construction and Engineering Applications.
 
 #### Contact

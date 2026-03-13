@@ -17,7 +17,7 @@
   <div class="publication-card-body">
     <div class="publication-title">Diffusion Model-Enhanced Coral Identification: A Lightweight Multi-Scale Network for Benthic Imagery Analysis</div>[under Minor-revision review]
     <div class="publication-authors"><span class="author-highlight">Changen, Yang.</span>, Zhi Zhou & Zhuhua Hu., Zhaoxuan Lu., Yijun Shen., Wei Zhang., Xi Liang.</div>
-    <div class="publication-venue"><em>Engineering Applications of Artificial Intelligence (<strong>EAAI</strong>)</em></div>
+    <div class="publication-venue"><em>Engineering Applications of Artificial Intelligence (<strong>EAAI</strong>)</em>.</div>
     <div class="publication-links"><a href="https://github.com/ChangenYang/CoralGrad-LiteNet">[Code]</a></div>
   </div>
 </div>
