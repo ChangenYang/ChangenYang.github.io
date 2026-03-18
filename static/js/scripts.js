@@ -32,7 +32,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
     // Yaml
-    const configReady = fetch(content_dir + config_file)
+    const requestOptions = { cache: 'no-store' };
+
+    const configReady = fetch(content_dir + config_file, requestOptions)
         .then(response => response.text())
         .then(text => {
             const yml = jsyaml.load(text);
@@ -51,7 +53,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Marked
     marked.use({ mangle: false, headerIds: false })
     const sectionsReady = Promise.all(section_names.map(name => {
-        return fetch(content_dir + name + '.md')
+        return fetch(content_dir + name + '.md', requestOptions)
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown);

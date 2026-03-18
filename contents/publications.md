@@ -22,6 +22,17 @@
   </div>
 </div>
 
+<div class="publication-card">
+  <div class="publication-card-image">
+    <img src="IEEE-TIV.png" alt="IEEE TIV paper preview">
+  </div>
+  <div class="publication-card-body">
+    <div class="publication-title">BIFROST-Det: Information-Conserving Gated Late Fusion for RGBIR Object Detection in Adverse Lighting</div> [under review]
+    <div class="publication-authors">Lyuchao Liao, Zhaoxuan Lu, Jiaxiang Wang, <span class="author-highlight">Changen Yang</span>, Shoufei Han, Fumin Zou.</div>
+    <div class="publication-venue"><em>IEEE Transactions on Intelligent Vehicles (<strong>TIV</strong>)</em>.</div>
+  </div>
+</div>
+
 
 #### Published
 - Cao, X., Yan, Z., Tang, K., Xing, Q., Lin, J., Su, H., Wu, Z., Wu, G., <span class="author-highlight">C, Yang.</span>, Tang, J.<sup>*</sup>, & Zhou, Z.<sup>*</sup> (2025). Threats of BaA-SM2 as key bioaccumulated polycyclic aromatic hydrocarbon and antibiotic components to coral energy dynamics and symbiosis stability. *Water Research, 287*, 124297. [https://doi.org/10.1016/j.watres.2025.124297](https://doi.org/10.1016/j.watres.2025.124297)

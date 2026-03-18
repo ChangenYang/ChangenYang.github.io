@@ -32,9 +32,37 @@ if (-not $selected) {
 $url = "http://localhost:$Port"
 Write-Host "Serving $projectRoot at $url using $($selected.Label)"
 Write-Host "Press Ctrl+C to stop the preview server."
+Write-Host "Caching is disabled for preview responses. Refresh the page after edits."
 
 if (-not $NoBrowser) {
     Start-Process $url
 }
 
-& $selected.Command @($selected.Args + @("-m", "http.server", $Port))
+$serverScript = @'
+import functools
+import http.server
+import os
+import socketserver
+
+
+class NoCacheRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
+        super().end_headers()
+
+
+project_root = os.environ["PREVIEW_PROJECT_ROOT"]
+port = int(os.environ["PREVIEW_PORT"])
+Handler = functools.partial(NoCacheRequestHandler, directory=project_root)
+
+with socketserver.TCPServer(("", port), Handler) as httpd:
+    print(f"Preview server running at http://localhost:{port}")
+    httpd.serve_forever()
+'@
+
+$env:PREVIEW_PROJECT_ROOT = $projectRoot
+$env:PREVIEW_PORT = $Port.ToString()
+
+$serverScript | & $selected.Command @($selected.Args + "-")
